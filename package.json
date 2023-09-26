@@ -1,19 +1,20 @@
-{  
-  "name": "redis",
-  "version": "1.0.0",
-  "description": "Chat Application with Node JS, HTML, Tailwind and Redis DB",
-  "main": "index.js",
-  "devDependencies": {},
-  "author": "Ayush Kumar",
-  "license": "ISC",
-  "type": "module",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "dependencies": {
-    "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4",
-    "express": "^4.18.2",
-    "nodemon": "^3.0.1"
-  }
+{
+    "name": "redis",
+    "version": "1.0.0",
+    "description": "Chat Application with Node JS, HTML, Tailwind and Redis DB",
+    "main": "index.js",
+    "author": "Ayush Kumar",
+    "license": "ISC",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.21.4",
+        "@babel/preset-env": "^7.21.4",
+        "express": "^4.18.2",
+        "nodemon": "^3.0.1",
+        "path": "^0.12.7",
+        "tailwindcss": "^3.3.3"
+    }
 }
